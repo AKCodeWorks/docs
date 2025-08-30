@@ -14,9 +14,9 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "User Management",
             "pages": [
-              "index",
+              "user-management/add-user",
               "quickstart",
               "development"
             ]
