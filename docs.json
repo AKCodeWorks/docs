@@ -17,8 +17,7 @@
             "group": "User Management",
             "pages": [
               "user-management/add-user",
-              "quickstart",
-              "development"
+              "user-management/roles/index"
             ]
           }
         ]
