@@ -16,6 +16,10 @@
       "family": "Sansation"
     }
   },
+  "banner": {
+    "content": "🚧 We're currently updating our documentation. If you have questions, please email us at support@titanbase.app",
+    "dismissible": true
+  },
   "navigation": {
     "tabs": [
       {
