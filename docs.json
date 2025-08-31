@@ -13,11 +13,17 @@
       {
         "tab": "Guides",
         "groups": [
-          {
+         {
             "group": "User Management",
             "pages": [
               "user-management/add-user",
               "user-management/roles/index"
+            ]
+          },
+            {
+            "group": "My Agency Profile",
+            "pages": [
+              "profile/phone-verification"
             ]
           }
         ]
