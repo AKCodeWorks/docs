@@ -8,22 +8,60 @@
     "dark": "#d60202"
   },
   "favicon": "/favicon.svg",
+  "fonts": {
+    "body": {
+      "family": "Sansation"
+    },
+    "heading": {
+      "family": "Sansation"
+    }
+  },
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
-         {
-            "group": "User Management",
+          {
+            "group": "Account & Profiles",
             "pages": [
-              "user-management/add-user",
-              "user-management/roles/index"
+              "global/account-vs-profile",
+              {
+                "group": "Account Settings",
+                "icon": "user-gear",
+                "pages": [
+                  "account/account-basics",
+                  "account/merge-account"
+                ]
+              },
+              {
+                "group": "Agency Profile",
+                "icon": "id-badge",
+                "pages": [
+                  "profile/profile-basics",
+                  "profile/contact",
+                  "profile/education",
+                  "profile/profile",
+                  "profile/notifications",
+                  "profile/phone-verification"
+                ]
+              }
             ]
           },
-            {
-            "group": "My Agency Profile",
+          {
+            "group": "User Management",
             "pages": [
-              "profile/phone-verification"
+              {
+                "group": "Add or Modify Users",
+                "pages": [
+                  "user-management/add-user"
+                ]
+              },
+              {
+                "group": "Roles & Permissions",
+                "pages": [
+                  "user-management/roles/index"
+                ]
+              }
             ]
           }
         ]
@@ -63,15 +101,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
